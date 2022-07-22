@@ -1,1 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/da9034ebd0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo.png" alt="404-Error" class="logo">
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#project">projects</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#Contact-us">contact-me</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>hi, I'm <span>Sahil </span><br> From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------About---- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/s3.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="p-color">hey, I,m Sahil Thakur I,m From Jammu & Kashmir(J&K) I have completed my Schooling
+                        in Jammu & Kashmir board as well as completed my B.Tech graduation in electronics and
+                        communication.
+                        I have completed various projects in my graduation like Accident Alert System, RF based Remote
+                        Control Robortic car various other small Project by Using Embedded System and C language . I
+                        have Also good Skills in JAVA, C, Data Structure and Algorithm , JAVASCRIPT , REACT JS , ANGULAR
+                        JS , NODE JS ,
+                        I have completed various project in that for example this Portfolio is one of the example of my
+                        simple project , more Currency conveter , calculator ..... etc. And also solve various problems
+                        on variety of plateform like leetecode hackerrank, geeksforgeeks Newton Schools and many others.
+                    </p>
+
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-Skills" id="skills">
+                        <ul>
+                            <li><span>Front-end</span><br>JAVASCRIPT, Angular Js , Node Js , HTML , CSS.</li>
+                            <li><span>Web Development</span><br>Web Application Development</li>
+                            <li><span>Programming language</span><br>C, JAVA. Data Structure Algorithm(DSA)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2013-14</span><br>10th- Govt.H.S.S From Jammu & Kashmir (J&K)Board.</li>
+                            <li><span>2015-16 </span><br>12th- Govt.H.S.S in (J&K)Board.</li>
+                            <li><span>2016-20</span><br>B.Tech(electronics and communication) From Punjab(MRSPTU)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>C-language</span><br>Naresh It Technologies .</li>
+                            <li><span>Embedded System</span><br>40 days - Training(Chandigrah)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ...............Projects -->
+
+    <div id="project">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="project-list">
+                <div>
+                    <i class="fa-solid fa-indian-rupee-sign"></i>
+                    <h2>Currency Conveter</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia voluptate dolor autem
+                        inventore reiciendis nisi unde eligendi
+                        cum molestiae est aut assumenda doloribus, asperiores vel fuga a praesentium tenetur vero.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-address-card"></i>
+                    <h2>Portfolio</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia voluptate dolor autem
+                        inventore reiciendis nisi unde eligendi
+                        cum molestiae est aut assumenda doloribus, asperiores vel fuga a praesentium tenetur vero.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-file"></i>
+                    <h2>Resume</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia voluptate dolor autem
+                        inventore reiciendis nisi unde eligendi
+                        cum molestiae est aut assumenda doloribus, asperiores vel fuga a praesentium tenetur vero.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-calculator"></i>
+                    <h2>calculator</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia voluptate dolor autem
+                        inventore reiciendis nisi unde eligendi
+                        cum molestiae est aut assumenda doloribus, asperiores vel fuga a praesentium tenetur vero.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- ......portfolio...... -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work </h1>
+        <div class="work-list" >
+            <div class="work">
+                <img src="Images/work1.png" alt="error" width="400px" height="250px">
+                <div class="layer">
+                    <h3>Web Applications</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing <br> elit. Fugiat, necessitatibus! Sapiente 
+                        consequatur natus, itaque commodi, <br> ipsam, accusantium molestias odio aut obcaecati
+                         sequi porro vero dignissimos <br> reprehenderit nihil numquam quisquam! Saepe.</p>
+                         <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+
+            </div>
+            <div class="work">
+                <img src="Images/music.png" alt="error" width="400px" height="250px">
+                <div class="layer">
+                    <h3>Music Application</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing <br> elit. Fugiat, necessitatibus! Sapiente 
+                        consequatur natus, itaque commodi, <br> ipsam, accusantium molestias odio aut obcaecati
+                         sequi porro vero dignissimos <br> reprehenderit nihil numquam quisquam! Saepe.</p>
+                         <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/shopping.png" alt="error" width="400px" height="250px">
+                <div class="layer">
+                    <h3>Shopping Site</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing <br> elit. Fugiat, necessitatibus! Sapiente 
+                        consequatur natus, itaque commodi, <br> ipsam, accusantium molestias odio aut obcaecati
+                         sequi porro vero dignissimos <br> reprehenderit nihil numquam quisquam! Saepe.</p>
+                         <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- .......contact with us...... -->
+
+<div id="Contact-us">
+    <div class="container-cont">
+        <h1>Connect With Us</h1>
+        <p> Here we would love to your queries and help you suceed. Stay feel free to get in touch with us </p>
+        <div class="Contact-box">
+            <div class="Contact-left">
+                <h3>Send Your Queries </h3>
+                <form action="ActionPage/action.html" target=""
+               autocomplete="off"
+              method="get"  >
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" placeholder="Sahil Thakur">
+                        </div>
+                        <div class="input-group">
+                            <label for="number"  >contact</label>
+                            <input type="number" id="number" placeholder="+91-4003-234-345">
+                        </div>
+                    </div>
+                    <div class="input-row">
+                        <div class="input-group">
+                        <label for="mail">E-mail</label>
+                        <input type="email" id="mail" placeholder="example@gmail.com">
+                        </div>
+                        <div class="input-group">
+                        <label for="subject"  >Subject</label>
+                        <input type="text" id="subject" placeholder="Product Demo">
+                        </div>
+                    </div>
+                    <div class="input-pass">
+                        <label for="Password"  >Password</label>
+                        <input type="password" id="Password" placeholder="Enter Strong Password">
+                        </div>
+                    <div>
+                        <label>Message </label><br>
+                    <textarea cols="30" rows="10" cols="20" placeholder="Your Message"></textarea>
+                    </div>
+               <div class="sumbitting-box">
+                <button type="submit" value="Submit!">Submit</button>
+               </div>
+                </form>
+            </div>
+            <div class="Contact-right">
+                <h3>Reach US </h3>
+                <table>
+                    <tr>
+                        <td> To Contact Us For Any Query</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-envelope"></i></td>
+                        <td>www.sahilthakurxyz@gmail.com</td>
+    
+                    </tr>
+                    <td><i class="fa-solid fa-phone"></i></td>
+                    <td>+91-232-456-232</td>
+                </tr>
+            </tr>
+            <td><i class="fa-solid fa-map-location-dot"></i></td>
+            <td>#232, Ground Floor, main Jammu, Jammu & Kashmir</td>
+        </tr>
+                </table>
+                <div class="links">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="">Linked<i class="fa-brands fa-linkedin"></i></a>
+                    <a href="mailto:sahilthakurxyz.com?Gmail = Feedback&body = Message"><i class="fa-solid fa-envelope"></i></i></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-google"></a>
+                </div>
+                <a href="Images/Cv.pdf.html" download class="btn btn2">Download CV</a>
+            </div>
+            
+        </div>
+       </div> 
+</div>
+
+
+    <!-- .....JavaScript.... -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-Skills");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-Skills");
+        }
+    </script>
+</body>
+
+</html>
