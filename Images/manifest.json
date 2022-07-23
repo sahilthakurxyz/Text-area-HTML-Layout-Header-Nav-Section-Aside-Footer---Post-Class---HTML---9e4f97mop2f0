@@ -1,0 +1,16 @@
+{
+    "version": "1.0",
+    "manifest_version":3,
+    "name":"curency_converter",
+
+    "background":{
+        "service_worker":"background.js"
+    },
+    
+
+    "action":{
+        "default_popup":"popup.html"
+    }
+   
+
+}

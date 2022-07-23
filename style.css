@@ -16,12 +16,17 @@ body{
 }
 .container{
     padding: 10px 10%;
+    /* position: fixed; */
 }
+
 nav{
     display: flex;
+    position: fixed;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin: 0 0 0 60%;
+    /*  */
 }
 .logo{
     width: 220px;
@@ -55,7 +60,10 @@ nav ul li a:hover::after{
     margin-top: 10%;
     font-size: 30px;
     transition: 0.5s;
-    
+
+} 
+.header-text .soft{
+    position: fixed;
 }
 .header-text:hover{
     -webkit-text-stroke: 2px #fff;
@@ -64,8 +72,8 @@ nav ul li a:hover::after{
     font-weight: 600;
 } 
 .header-text h1{
-font-size: 60px;
-margin-top: 20px;
+font-size: 35px;
+margin-top: 30px;
 }
 .header-text h1{
     font-size: 100px;
@@ -194,13 +202,13 @@ margin-top: 20px;
 .project-list div a{
     text-decoration: none;
     margin-top: 20px;
-    color: #fff;
+    color: blue;
     display: inline-block;
      
 }
 .project-list div:hover{
     background: #ff004f;
-    transform: translateY(-50px);
+    transform: translateY(-10px);
 }
 /* .....portfolio....... */
 #portfolio{
@@ -362,6 +370,10 @@ button{
     margin-top: 20px;
     box-shadow: white;
     cursor: pointer;
+    transition: background 0.5s;
+}
+.Contact-left button:hover{
+background: #ff004f;
 }
 .Contact-left h3{
     color: white;
@@ -397,20 +409,18 @@ div .links a {
     box-shadow: white;
     transition: background 0.5s;
 }
-
-.fa {
-  padding: 8px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-
-}
-div .links a:hover{
-    color: #ff004f;
-}
 .btn.btn2{
     display: inline-block;
     background: #ff004f;
+    margin-left: 10vh;
+}
+.Contact-right p {
+    margin-top: 30px;
+}
+.Contact-right p i{
+    color: #ff004f;
+    transition:linear-grandent;
+}
+.Contact-right p i:hover{
+    color: darkslateblue;
 }
